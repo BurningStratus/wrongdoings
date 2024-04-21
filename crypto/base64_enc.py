@@ -1,0 +1,36 @@
+import base64
+
+def base64_enc(string):
+    try:
+        string.encode("ascii")
+    except:
+        pass
+    
+    return base64.b64encode(string)
+
+def base64_dec(string):
+    try:
+        string.encode("ascii")
+    except:
+        pass
+    
+    return base64.b64decode(string)
+
+encoded = input("b64-encoded msg: ")
+
+rev = False
+while not rev:
+    op = input("'ENTER' to decode and 'e' to encode\n :> ")
+    if op.lower() == "e":
+        encoded = base64_enc(encoded)
+        print("msg encoded.")
+    else:
+        encoded = base64_dec(encoded)
+        print("msg decoded.")
+    
+    print(encoded)
+    
+    rev = input("ENTER for next iteration")
+
+print("\n", encoded)
+    
