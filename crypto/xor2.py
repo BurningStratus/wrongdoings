@@ -13,5 +13,7 @@ for i in range(n):
     byte  = ord(s) ^ ord(k)
     cipher += chr(byte)
 
-print(string, key, binascii.hexlify(bytes(cipher, "ascii")))
+# print(string, key, binascii.hexlify(bytes(cipher, "ascii")))
+
+print(string, key, cipher)
 
