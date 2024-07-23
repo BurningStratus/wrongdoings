@@ -1,0 +1,3 @@
+/home/stratus/progs/c-lang/pi/project/build/pioasm/CMakeFiles/pioasm.dir
+/home/stratus/progs/c-lang/pi/project/build/pioasm/CMakeFiles/edit_cache.dir
+/home/stratus/progs/c-lang/pi/project/build/pioasm/CMakeFiles/rebuild_cache.dir

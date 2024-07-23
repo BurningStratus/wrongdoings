@@ -37,10 +37,7 @@ int main()
     printf("Listening ...");
     listen(s, 10);
 
-    while (true)
-    {
     int x = connection( s ); 
-    }
     // close the socket
     close(s);
     return 0;
